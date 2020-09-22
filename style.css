@@ -1,0 +1,61 @@
+/*--- Font ---*/
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+    display: flex;
+    background-color: #EDF2F8;
+}
+.container {
+    display: flex;
+    margin: 0 auto;
+    width: 60vw;
+}
+.desc {
+    padding: 2rem;
+    background-color: #fff;
+}
+.img-top img {
+    width: 120%;
+}
+.highlight {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.preview_description {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.profil {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.profil-info {
+    margin-right: 16rem;
+}
+.profil-info h3 {
+    font-size: .8rem;
+}
+.avatar img {
+    border-radius: 50%;
+    width: 40px;
+}
+.share {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: hsl(210, 46%, 95%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.share img {
+    width: 15px;
+    height: 15px;
+}
