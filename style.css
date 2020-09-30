@@ -21,7 +21,8 @@ body {
     background-color: #fff;
 }
 .img-top img {
-    width: 120%;
+    width: 100%;
+    height: 100%;
 }
 .highlight {
     font-size: 22px;
@@ -34,13 +35,19 @@ body {
 .profil {
     align-items: center;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 .profil-info {
-    margin-right: 16rem;
+    position: relative;
+    margin: 0 10px;
+    width: 200px;
 }
 .profil-info h3 {
     font-size: .8rem;
+}
+.avatar {
+    position: relative;
+    left: -10px;
 }
 .avatar img {
     border-radius: 50%;
